@@ -9,3 +9,5 @@
 ^scripts$
 ^examples$
 ^_pkgdown\.yml$
+^docs$
+^pkgdown$

@@ -1,0 +1,72 @@
+url: https://shuang-jie.github.io/LODI/
+
+template:
+  bootstrap: 5
+  bootswatch: flatly
+  bslib:
+    primary: "#18BC9C"
+    base_font: {google: "Source Sans Pro"}
+    heading_font: {google: "Source Sans Pro"}
+    code_font: {google: "JetBrains Mono"}
+  opengraph:
+    twitter:
+      creator: "@shuangjie"
+      card: summary
+
+home:
+  title: LODI — Longitudinal Dynamic Interaction Model for Microbiome Counts
+  description: >
+    A Bayesian dynamic factor model for longitudinal microbiome count data
+    that separates per-feature temporal drift from shared cross-feature
+    dynamics and yields a time-indexed cross-feature covariance.
+  links:
+  - text: Companion paper (submitted)
+    href: https://github.com/shuang-jie/LODI
+  - text: Issue tracker
+    href: https://github.com/shuang-jie/LODI/issues
+
+navbar:
+  bg: primary
+  structure:
+    left:  [reference, articles, news]
+    right: [search, github]
+  components:
+    reference:
+      text: Functions
+      href: reference/index.html
+    articles:
+      text: Worked example
+      href: articles/simulation1.html
+
+reference:
+- title: "Fit"
+  desc: >
+    Run the LODI MCMC on a longitudinal count table.
+  contents:
+  - lodi
+
+- title: "Simulate"
+  desc: >
+    Generate a matched-truth longitudinal count dataset from the LODI
+    generative model.
+  contents:
+  - simulate_lodi
+
+- title: "Posterior summaries"
+  desc: >
+    Post-process a fitted `lodi_fit` into interpretable estimates.
+  contents:
+  - posterior_Sigma
+  - posterior_rho
+  - posterior_phi
+
+articles:
+- title: "Worked example"
+  navbar: ~
+  contents:
+  - simulation1
+
+footer:
+  structure:
+    left: developed_by
+    right: built_with
