@@ -15,7 +15,8 @@ Description: A Bayesian dynamic factor model for longitudinal microbiome count
     cross-feature covariance and separates individual taxon trajectories from
     the shared dynamics that drive interactions. The loading matrix is
     identified via the standard lower-triangular constraint with positive
-    diagonal. Methods are described in Zhang, Ok, and Ni (submitted).
+    diagonal. Methods are described in Zhang, Ok, and Ni (submitted),
+    "Bayesian Nonparametric Longitudinal Factor Model for Microbiome Counts."
 License: MIT + file LICENSE
 Encoding: UTF-8
 URL: https://github.com/shuang-jie/LODI

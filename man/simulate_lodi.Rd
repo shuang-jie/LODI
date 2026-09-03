@@ -65,7 +65,8 @@ covariance \eqn{\Lambda\Lambda^\top + \sigma^2 I} at each timepoint.}
 }
 \description{
 Draws a synthetic dataset matching the "Simulation 1: matched truth"
-setting of Zhang, Ok, and Ni (submitted): rounded log-normal observation
+setting of Zhang, Ok, and Ni (submitted), "Bayesian Nonparametric
+Longitudinal Factor Model for Microbiome Counts": rounded log-normal observation
 model, three-cluster Dirichlet-process mixture initial baselines, AR(1)
 per-feature drift, and AR(1) shared factors with lower-triangular
 identifiable loadings.
