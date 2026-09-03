@@ -1,8 +1,9 @@
 # Simulation 1: matched truth
 
 This vignette reproduces a small version of “Simulation 1: matched
-truth” from Zhang, Ok, and Ni (submitted). It generates counts from
-LODI’s own generative model and shows that the MCMC recovers the
+truth” from Zhang, Ok, and Ni (submitted), “Bayesian Nonparametric
+Longitudinal Factor Model for Microbiome Counts.” It generates counts
+from LODI’s own generative model and shows that the MCMC recovers the
 within-time cross-feature covariance
 $`\Sigma_t = \Lambda\Lambda^\top + \sigma^2_t I_J`$ under matched
 conditions.

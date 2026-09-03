@@ -16,7 +16,9 @@ $`\Sigma_t = \Lambda \Lambda^\top + \sigma^2_t I_J`$ and cleanly
 separates individual taxon trajectories from the shared dynamics that
 drive interactions.
 
-For more information, see the paper: **Zhang, Ok, and Ni (submitted)**.
+For more information, see the paper: **Zhang, Ok, and Ni (submitted),
+“Bayesian Nonparametric Longitudinal Factor Model for Microbiome
+Counts.”**
 
 Contact: Shuangjie Zhang <shuangjie.zhang@austin.utexas.edu>.
 
