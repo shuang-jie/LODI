@@ -1,0 +1,19 @@
+citHeader("To cite LODI in publications, please use the paper:")
+
+bibentry(
+  bibtype  = "Unpublished",
+  title    = "Bayesian Nonparametric Longitudinal Factor Model for Microbiome Counts",
+  author   = c(
+    person("Shuangjie", "Zhang"),
+    person("Seoyeon", "Ok"),
+    person("Yang", "Ni")
+  ),
+  year     = "2026",
+  note     = "Submitted",
+  url      = "https://github.com/shuang-jie/LODI",
+  textVersion = paste(
+    "Shuangjie Zhang, Seoyeon Ok, and Yang Ni (2026).",
+    "Bayesian Nonparametric Longitudinal Factor Model for Microbiome Counts.",
+    "Submitted. https://github.com/shuang-jie/LODI"
+  )
+)
