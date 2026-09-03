@@ -7,16 +7,16 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/shuang-jie/LODI/blob/main/DESCRIPTION)
+[`inst/CITATION`](https://github.com/shuang-jie/LODI/blob/main/inst/CITATION)
 
-Zhang S (2026). *LODI: LOngitudinal Dynamic Interaction Model for
-Microbiome Count Data*. R package version 0.1.0,
-<https://github.com/shuang-jie/LODI>.
+Shuangjie Zhang, Seoyeon Ok, and Yang Ni (2026). Bayesian Nonparametric
+Longitudinal Factor Model for Microbiome Counts. Submitted.
+https://github.com/shuang-jie/LODI
 
-    @Manual{,
-      title = {LODI: LOngitudinal Dynamic Interaction Model for Microbiome Count Data},
-      author = {Shuangjie Zhang},
+    @Unpublished{,
+      title = {Bayesian Nonparametric Longitudinal Factor Model for Microbiome Counts},
+      author = {Shuangjie Zhang and Seoyeon Ok and Yang Ni},
       year = {2026},
-      note = {R package version 0.1.0},
+      note = {Submitted},
       url = {https://github.com/shuang-jie/LODI},
     }
